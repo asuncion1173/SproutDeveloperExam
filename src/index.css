@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Start of Header CSS */
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -15,7 +17,7 @@
   list-style: none;
   display: inline-block;
   color: #e0e0e0;
-  font-family: sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .logo {
@@ -34,10 +36,37 @@
   align-items: center;
 }
 
-.color-white {
-  color:#999999;
+.sort-logo {
+  color:#919191;
   margin-left: 5px;
   font-size: 10px;
+}
+
+.search-logo {
+  color:#6f747a;
+  margin-left: 15px;
+  font-size: 19px;
+}
+
+.bell-logo {
+  color:#6f747a;
+  font-size: 19px;
+  margin-left: -5px;
+}
+
+.profile-logo {
+  font-size: 25px;
+  margin-left: -5px;
+}
+
+ul li:nth-child(9) {
+  color: #28b8cb;
+}
+
+.sort-logo-blue {
+  color: #28b8cb;
+  font-size: 10px;
+  margin-left: 3px;
 }
 
 .align-logo {
@@ -48,17 +77,183 @@
 textarea:focus { 
   outline: none !important;
   border-color: rgba(0, 0, 0, 0);
+  border-bottom: 2px solid white;
+}
 
+textarea::placeholder {
+  color: #919191;
+  text-align: center;
+  font-size: 11px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .employee-search {
   resize: none;
-  height: 1.2rem;
+  width: 10rem;
+  height: 2.2rem;
   align-items: center;
-  margin-bottom: -3px;
+  margin-left: -10px;
   border: none;
-  border-bottom: 3px solid white;
+  border-bottom: 2px solid white;
   background-color: rgba(0, 0, 0, 0); 
-  border-color: rgba(0, 0, 0, 0);
+  font-size: 11px;
+  color: #919191;
+}
+/* End of Header CSS */
+
+/* Start of Announcement CSS */
+
+section {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #112f25;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #112f25;
+}
+
+.post {
+  background-color: #14ae46 ;
+  display: center;
+  float: right;
+  margin-top: -20px;
+  border-radius: 3px;
+  border: none;
+  font-size: 13px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.fa-plus{
+  margin-right: 1rem;
+}
+
+/* End of Announcement Css */
+
+/* Start of Table Css */
+
+.wholeform {
+  display: block;
+  justify-content: center;
+  margin: 3rem;
+  margin-top: -2rem;
+}
+
+.topoptions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.leftside, .rightside{
+  display: flex;
+  gap: 1rem;
+}
+
+.leftside span {
+  background-color: #14ae46;
+  padding: 0.5rem 1.3rem;
+  border-radius: 10px;
+  margin-right: 5px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.leftside .draft {
+  background-color: #d3931c;
+  padding: 0.5rem 1.3rem;
+  border-radius: 10px;
+}
+
+.leftside button:first-child {
+  background-color: #1cc4514d;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.leftside button:nth-child(2) {
+  background-color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.rightside{
+  position: relative;
+}
+
+.rightside select {
+  width: 250px;
+  height: 32px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.rightside input {
+  width: 250px;
+  height: 32px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+
+}
+
+.rightside .fa-search { 
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+.rightside input {
+  text-indent: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+tr{
+  background-color: white;
   
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
+  
+}
+
+tfoot .left{
+  text-align: left;
+}
+
+tfoot .center {
+  text-align: center;
+}
+
+tfoot .right {
+  text-align: right;
 }
