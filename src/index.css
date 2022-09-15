@@ -8,12 +8,14 @@
   justify-content: space-between;
   align-items: center;
   background-color: #333333;
-  padding: 1rem 5%;
+  padding: 1rem 2%;
 }
 
 .nav-bar li {
   list-style: none;
   display: inline-block;
+  color: #e0e0e0;
+  font-family: sans-serif;
 }
 
 .logo {
@@ -24,4 +26,39 @@
 
 .options li {
   margin: 0 1rem;
+  font-size: 1.3rem;  
+}
+
+.options ul {
+  display: flex;
+  align-items: center;
+}
+
+.color-white {
+  color:#999999;
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.align-logo {
+  display: flex;
+  align-items: center;
+}
+
+textarea:focus { 
+  outline: none !important;
+  border-color: rgba(0, 0, 0, 0);
+
+}
+
+.employee-search {
+  resize: none;
+  height: 1.2rem;
+  align-items: center;
+  margin-bottom: -3px;
+  border: none;
+  border-bottom: 3px solid white;
+  background-color: rgba(0, 0, 0, 0); 
+  border-color: rgba(0, 0, 0, 0);
+  
 }
