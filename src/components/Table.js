@@ -30,94 +30,94 @@ function Table() {
                     <th>END DATE</th>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>[FOR YOUR ACTIO...</td>
+                    <td>In line with the inc...</td>
+                    <td>Roe, Ken</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                    <td>02/17/2022</td>
+                    <td>02/17/2022<p className="time-start">9:30 AM</p></td>
+                    <td>02/22/2022<p className="time-end">7:30 PM</p></td>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>Annual Physical E...</td>
+                    <td>In compliance with...</td>
+                    <td>Roe, Ken</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i><i class="fa fa-mobile" aria-hidden="true"></i></td>
+                    <td>08/30/2020</td>
+                    <td>09/01/2020<p className="time-start">9:00 AM</p></td>
+                    <td>09/30/2020<p className="time-end">6:30 PM</p></td>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>Mid-Autumn Festi...</td>
+                    <td>We wish everyone a...</td>
+                    <td>Doe, Jane</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                    <td>08/30/2020</td>
+                    <td>09/01/2020<p className="time-start">9:00 AM</p></td>
+                    <td>09/30/2020<p className="time-end">6:30 PM</p></td>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>50th General Asse...</td>
+                    <td>Expelliarmus! Chec...</td>
+                    <td>Doe, Jane</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                    <td>08/30/2020</td>
+                    <td>09/01/2020<p className="time-start">9:00 AM</p></td>
+                    <td>09/30/2020<p className="time-end">6:30 PM</p></td>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>New Employees</td>
+                    <td>Let us all welcom...</td>
+                    <td>King, Chow</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                    <td>08/30/2020</td>
+                    <td>09/01/2020<p className="time-start">9:00 AM</p></td>
+                    <td>09/30/2020<p className="time-end">6:30 PM</p></td>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>Stocks as of Aug...</td>
+                    <td>Our investors have...</td>
+                    <td>King, Chow</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                    <td>08/30/2020</td>
+                    <td>09/01/2020<p className="time-start">9:00 AM</p></td>
+                    <td>09/30/2020<p className="time-end">6:30 PM</p></td>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>Tip of the Week</td>
+                    <td>To stay hydrated, d...</td>
+                    <td>Roe, Ken</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                    <td>08/30/2020</td>
+                    <td>09/01/2020<p className="time-start">9:00 AM</p></td>
+                    <td>09/30/2020<p className="time-end">6:30 PM</p></td>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>Employees of the M...</td>
+                    <td>Congratulations to ...</td>
+                    <td>King, Chow</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                    <td>08/30/2020</td>
+                    <td>09/01/2020<p className="time-start">9:00 AM</p></td>
+                    <td>09/30/2020<p className="time-end">6:30 PM</p></td>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>Breakfast Menu</td>
+                    <td>We will be introduci...</td>
+                    <td>Gus, Amon</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                    <td>08/30/2020</td>
+                    <td>09/01/2020<p className="time-start">9:00 AM</p></td>
+                    <td>09/30/2020<p className="time-end">6:30 PM</p></td>
                 </tr>
                 <tr>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
-                    <td>FOR YOUR ACTIO...</td>
+                    <td>Cafe Relocation</td>
+                    <td>With the ongoing re...</td>
+                    <td>Lavjsta, Asta</td>
+                    <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                    <td>08/30/2020</td>
+                    <td>09/01/2020<p className="time-start">9:00 AM</p></td>
+                    <td>09/30/2020<p className="time-end">6:30 PM</p></td>
                 </tr>
                 <tfoot>
                     <tr>
