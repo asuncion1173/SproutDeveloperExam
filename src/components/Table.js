@@ -121,9 +121,18 @@ function Table() {
                 </tr>
                 <tfoot>
                     <tr>
-                        <td className="left">1</td>
-                        <td className="center" colspan="5">1</td>
-                        <td className="right">1</td>
+                        <td className="left">Items per page 
+                            <select>
+                                <option>10</option>
+                            </select>
+                        </td>
+                        <td className="center" colspan="5">
+                            <i class="fa fa-step-backward" aria-hidden="true"></i>
+                            <i class="fa fa-caret-left" aria-hidden="true"></i>
+                            Page<span>1</span> of 1 <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            <i class="fa fa-step-forward" aria-hidden="true"></i>
+                        </td>
+                        <td className="right">Showing 1 - 10 of 1</td>
                     </tr>
                 </tfoot>
             </table>
